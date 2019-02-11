@@ -31,7 +31,7 @@ class LoginViewController: UIViewController {
             self.performSegue(withIdentifier: "loginToHome", sender: self)
         }, failure: {_ in
             
-            })
+        })
         
         /*TwitterAPICaller.client?.login(url: apiURL, success: {
             UserDefaults.standard.set(true, forKey: "userLoggedIn")
